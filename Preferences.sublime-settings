@@ -1,0 +1,36 @@
+{
+	"auto_complete_commit_on_tab": true,
+	"close_windows_when_empty": true,
+	"color_scheme": "Packages/User/idleFingers.tmTheme",
+	"file_exclude_patterns":
+	[
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.class",
+		"*.psd",
+		"*.db",
+		"*.meta"
+	],
+	"font_face": "SourceCodePro-Regular",
+	"font_size": 13.0,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"theme": "Soda Dark.sublime-theme",
+	"word_wrap": "auto"
+}

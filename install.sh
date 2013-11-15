@@ -2,8 +2,13 @@
 
 # based roughly on https://github.com/thoughtbot/dotfiles/blob/master/install.sh
 
+# cd into dotfiles folder before running!
+
+# TODO:
+# add exception for Preferences.sublime-settings
+
 for name in *; do
-	if [[ $name != 'install.sh' && $name != 'README.md' ]]; then
+	if [[ $name != 'install.sh' && $name != 'README.md' && $name != 'Preferences.sublime-settings' && $name != 'themes' && $name != 'osx' ]]; then
 		target="$HOME/.$name"
 
 		if [ -e "$target" ]; then
