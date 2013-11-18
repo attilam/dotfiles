@@ -7,3 +7,5 @@ class Object
 		(obj.methods - obj.class.superclass.instance_methods).sort
 	end
 end
+
+IRB.conf[:AUTO_INDENT] = true
