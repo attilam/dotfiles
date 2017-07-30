@@ -1,0 +1,124 @@
+./
+../
+.DS_Store
+.localized
+1Password 6.app/
+Ableton Live 9 Suite.app/
+Adobe Bridge CC 2017/
+Adobe Creative Cloud/
+Affinity Designer.app/
+Affinity Photo.app/
+Alfred 3.app/
+Anki.app/
+App Store.app/
+Audacity.app/
+Automator.app/
+Bitmap2Material.app/
+C6.app/
+Calculator.app/
+Calendar.app/
+Chess.app/
+CleanMyMac 3.app/
+CloudBerry Backup.app/
+Contacts.app/
+Cornerstone.app/
+CrossOver.app/
+DB Browser for SQLite.app/
+DVD Player.app/
+DaisyDisk.app/
+Dash.app/
+Dashboard.app/
+Day One.app/
+Dictionary.app/
+Discord.app/
+Dropbox.app/
+Epic Games Launcher.app/
+FaceTime.app/
+Fantastical 2.app/
+Firefox.app/
+Font Book.app/
+GIF Brewery 3.app/
+GitHub Desktop.app/
+Grafx2.app/
+Houdini/
+IDLE.app@
+Image Capture.app/
+ImageOptim.app/
+Keka.app/
+Keynote.app/
+Launchpad.app/
+Little Snitch Configuration.app/
+Mail.app/
+Maps.app/
+Max.app/
+Messages.app/
+Mission Control.app/
+Money.app/
+MuseScore 2.app/
+Native Access.app/
+Native Instruments/
+Notes.app/
+Numbers.app/
+Opera.app/
+Overbridge Control Panel.app/
+PICO-8.app/
+Pages.app/
+Parallels Desktop.app/
+Photo Booth.app/
+Photos.app/
+Pine Player.app/
+Preview.app/
+Processing.app/
+PyCharm CE.app/
+Python Launcher.app@
+QuickTime Player.app/
+RAWPower.app/
+Reminders.app/
+Safari.app/
+ScreenFlow.app/
+Sequel Pro.app/
+Siri.app/
+Sketch.app/
+Skype.app/
+Slack.app/
+Spark.app/
+Spotify.app/
+Starry Night Pro 7.app/
+Steam.app/
+Stickies.app/
+Sublime Text.app/
+Substance Designer.app/
+Substance Painter.app/
+Substance Player.app/
+System Preferences.app/
+TeamViewer.app/
+TextEdit.app/
+The Unarchiver.app/
+Things3.app/
+Tiled.app/
+Time Machine.app/
+Tomighty.app/
+Touch Bar Simulator.app/
+Transmission.app/
+Transmit.app/
+Tweetbot.app/
+Unity 5.3.7p4/
+Unity 5.4.2p4/
+Unity 5.6.1f1/
+Utilities/
+Uurnog.app/
+Übersicht.app/
+VLC.app/
+Vice64/
+Visual Studio Code.app/
+Vivaldi.app/
+WhatsApp.app/
+Wunderlist.app/
+XMind.app/
+Xcode.app/
+blender-2.78c/
+iBooks.app/
+iTerm.app/
+iTunes.app/
+neutron.app/
+xScope.app/
