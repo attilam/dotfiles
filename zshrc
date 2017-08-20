@@ -33,6 +33,10 @@ alias brain='subl ~/Dropbox/Braindump/Braindump.sublime-project'
 alias f='open .'
 alias ls='ls -FGah'
 
+alias svn18="/usr/local/opt/subversion@1.8/bin/svn"
+
+alias https="python -m SimpleHTTPServer"
+
 function d { cd /Volumes/MrData/Downloads/$1; }
 function h { cd ~/$1; }
 function p { cd /Volumes/MrData/Work/$1; }
@@ -69,6 +73,7 @@ function myip() {
   echo -n $externalip | pbcopy
 }
 
+PATH="$HOME/bin:$PATH"
 
 ##Renderman
 # RMANTREE="/Applications/Pixar/RenderManProServer-21.3"
