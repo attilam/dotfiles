@@ -73,6 +73,8 @@ function myip() {
   echo -n $externalip | pbcopy
 }
 
+function npmi() { npm info $1 | grep description; }
+
 PATH="/Volumes/MrData/_GitHub/scripts:$HOME/bin:$PATH"
 
 ##Renderman
