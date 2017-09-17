@@ -73,7 +73,7 @@ function myip() {
   echo -n $externalip | pbcopy
 }
 
-function npmi() { npm info $1 | grep description; }
+function npmi() { npm info $1 | grep 'description\|homepage\|author'; }
 
 PATH="/Volumes/MrData/_GitHub/scripts:$HOME/bin:$PATH"
 

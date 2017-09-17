@@ -69,7 +69,7 @@ brews () {
   done
 }
 
-function npmi() { npm info $1 | grep description; }
+function npmi() { npm info $1 | grep 'description\|homepage\|author'; }
 
 function shot2jpg() {
   convert "$@" -background white -alpha remove -strip -quality 90 "${@%.*}.jpg"
