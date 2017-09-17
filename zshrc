@@ -73,7 +73,7 @@ function myip() {
   echo -n $externalip | pbcopy
 }
 
-PATH="$HOME/bin:$PATH"
+PATH="/Volumes/MrData/_GitHub/scripts:$HOME/bin:$PATH"
 
 ##Renderman
 # RMANTREE="/Applications/Pixar/RenderManProServer-21.3"
@@ -89,3 +89,6 @@ PATH="/usr/local/mysql/bin:$PATH"
 
 # disable dotNet telemetry
 export DOTNET_CLI_TELEMETRY_OPTOUT=1
+
+# load private stuff
+test -f ~/.private && source ~/.private
