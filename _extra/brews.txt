@@ -2,20 +2,24 @@ bash: Bourne-Again SHell, a UNIX command interpreter
 dmd: D programming language compiler for macOS
 gcc: GNU compiler collection
 highlight: Convert source code to formatted text with syntax highlighting
-hugo: Configurable static site generator
-imagemagick: Tools and libraries to manipulate images in many formats
 jq: Lightweight and flexible command-line JSON processor
+libidn: International domain name library
 midnight-commander: Terminal-based visual file manager
+mongodb: High-performance, schema-free, document-oriented database
 mono: Cross platform, open source .NET development framework
+netcat: Utility for managing network connections
 ninja: Small build system for use with gyp or CMake
-homebrew/science/opencv3: Open source computer vision library, version 3
+node: Platform built on V8 to build network applications
+octave: High-level interpreted language for numerical computing
+opencv: Open source computer vision library
 perl: Highly capable, feature-rich programming language
+pngcheck: Print info and check PNG, JNG, and MNG files
 python: Interpreted, interactive, object-oriented programming language
 python3: Interpreted, interactive, object-oriented programming language
 qemu: x86 and PowerPC Emulator
 ruby: Powerful, clean, object-oriented scripting language
+subversion@1.8: Version control system
 vim: Vi 'workalike' with many additional features
 wget: Internet file retriever
-yarn: JavaScript package manager
 youtube-dl: Download YouTube videos from the command-line
 zsh: UNIX shell (command interpreter)

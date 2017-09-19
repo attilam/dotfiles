@@ -12,14 +12,15 @@ Alfred 3.app/
 Anki.app/
 App Store.app/
 Audacity.app/
+Audio Overload.app/
 Automator.app/
+Backup and Sync.app/
 Bitmap2Material.app/
 C6.app/
 Calculator.app/
 Calendar.app/
 Chess.app/
 CleanMyMac 3.app/
-CloudBerry Backup.app/
 Contacts.app/
 Cornerstone.app/
 CrossOver.app/
@@ -32,24 +33,28 @@ Day One.app/
 Dictionary.app/
 Discord.app/
 Dropbox.app/
-Epic Games Launcher.app/
 FaceTime.app/
 Fantastical 2.app/
 Firefox.app/
 Font Book.app/
 GIF Brewery 3.app/
+GalaxyClient.app/
 GitHub Desktop.app/
 Grafx2.app/
 Houdini/
 IDLE.app@
+IINA.app/
 Image Capture.app/
 ImageOptim.app/
+KORG/
 Keka.app/
 Keynote.app/
 Launchpad.app/
 Little Snitch Configuration.app/
+Logi Options.app/
 Mail.app/
 Maps.app/
+Marked 2.app/
 Max.app/
 Messages.app/
 Mission Control.app/
@@ -59,6 +64,7 @@ Native Access.app/
 Native Instruments/
 Notes.app/
 Numbers.app/
+OpenEmu.app/
 Opera.app/
 Overbridge Control Panel.app/
 PICO-8.app/
@@ -69,7 +75,6 @@ Photos.app/
 Pine Player.app/
 Preview.app/
 Processing.app/
-PyCharm CE.app/
 Python Launcher.app@
 QuickTime Player.app/
 RAWPower.app/
@@ -95,30 +100,26 @@ TeamViewer.app/
 TextEdit.app/
 The Unarchiver.app/
 Things3.app/
-Tiled.app/
 Time Machine.app/
-Tomighty.app/
 Touch Bar Simulator.app/
+Tower.app/
 Transmission.app/
 Transmit.app/
 Tweetbot.app/
-Unity 5.3.7p4/
+Unity 2017.1p5/
 Unity 5.4.2p4/
 Unity 5.6.1f1/
 Utilities/
-Uurnog.app/
-Übersicht.app/
-VLC.app/
 Vice64/
 Visual Studio Code.app/
 Vivaldi.app/
 WhatsApp.app/
-Wunderlist.app/
 XMind.app/
 Xcode.app/
-blender-2.78c/
+blender-2.79/
+chipspeech.app/
+iA Writer.app/
 iBooks.app/
 iTerm.app/
 iTunes.app/
-neutron.app/
 xScope.app/
