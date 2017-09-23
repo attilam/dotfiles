@@ -38,9 +38,9 @@ alias svn18="/usr/local/opt/subversion@1.8/bin/svn"
 alias https="python -m SimpleHTTPServer"
 
 function d { cd /Volumes/MrData/Downloads/$1; }
-function h { cd ~/$1; }
-function p { cd /Volumes/MrData/Work/$1; }
-function psentio { cd /Volumes/MrData/Work/Sentiomedia/$1; }
+function p { cd /Volumes/MrData/Projects/$1; }
+function wr { cd /Volumes/MrData/Work/$1; }
+function sen { cd /Volumes/MrData/Work/Sentiomedia/$1; }
 
 function mkcdr {
   mkdir -p $1
