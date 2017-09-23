@@ -54,9 +54,9 @@ code () {
 
 # some functions
 function d { cd /Volumes/MrData/Downloads/$1; }
-function h { cd ~/$1; }
-function p { cd /Volumes/MrData/Work/$1; }
-function psentio { cd /Volumes/MrData/Work/Sentiomedia/$1; }
+function p { cd /Volumes/MrData/Projects/$1; }
+function wr { cd /Volumes/MrData/Work/$1; }
+function sen { cd /Volumes/MrData/Work/Sentiomedia/$1; }
 
 function mkcdr {
   mkdir -p $1
@@ -120,18 +120,6 @@ if [ -n "$SSH_CLIENT" ]; then
 else
   export PS1="\[\e[34;1m\]\u\[\033[m\] \[\e[32;1m\]\W\[\033[m\] $ "
 fi
-
-# Load .bashrc
-if [ -f ~/.bashrc ]; then
-  . ~/.bashrc
-fi
-
-test -e ${HOME}/.iterm2_shell_integration.bash && source ${HOME}/.iterm2_shell_integration.bash
-
-function iterm2_print_user_vars() {
-  iterm2_set_user_var gitBranch $((git branch 2> /dev/null) | grep \* | cut -c3-)
-}
-eval $(/usr/libexec/path_helper -s)
 
 # load private stuff
 test -f ~/.private && source ~/.private
