@@ -38,6 +38,8 @@ alias ungit="find . -type d -name .git -exec rm -rf {} \;"
 alias brain='subl ~/Dropbox/Braindump/Braindump.sublime-project'
 alias svn18="/usr/local/opt/subversion@1.8/bin/svn"
 
+alias blender='/Applications/blender-2.79/blender.app/Contents/MacOS/blender'
+
 # shortcut to common directories
 function d { cd /Volumes/MrData/Downloads/$1; }
 function p { cd /Volumes/MrData/Projects/$1; }
