@@ -3,23 +3,27 @@
 .DS_Store
 .localized
 1Password 6.app/
-Ableton Live 9 Suite.app/
-Adobe Bridge CC 2017/
+Ableton Live 10 Beta.app/
+Adobe Bridge CC 2018/
 Adobe Creative Cloud/
+Adobe XD CC/
 Affinity Designer.app/
 Affinity Photo.app/
 Alfred 3.app/
-Anki.app/
 App Store.app/
+Arq.app/
+Arturia/
+Aseprite.app/
 Audacity.app/
 Audio Overload.app/
 Automator.app/
-Backup and Sync.app/
+Beaker Browser.app/
 Bitmap2Material.app/
 C6.app/
 Calculator.app/
 Calendar.app/
 Chess.app/
+Chromaphone 2.app/
 CleanMyMac 3.app/
 Contacts.app/
 Cornerstone.app/
@@ -33,19 +37,26 @@ Day One.app/
 Dictionary.app/
 Discord.app/
 Dropbox.app/
+Electron API Demos.app/
+Epic Games Launcher.app/
 FaceTime.app/
 Fantastical 2.app/
+Firefox ESR.app/
 Firefox.app/
+Fitbit Connect.app/
 Font Book.app/
 GIF Brewery 3.app/
-GalaxyClient.app/
+GOG Galaxy.app/
 GitHub Desktop.app/
+Godot.app/
 Grafx2.app/
 Houdini/
 IDLE.app@
 IINA.app/
+IanniX.app/
 Image Capture.app/
 ImageOptim.app/
+Install macOS High Sierra.app/
 KORG/
 Keka.app/
 Keynote.app/
@@ -57,11 +68,14 @@ Maps.app/
 Marked 2.app/
 Max.app/
 Messages.app/
+Min.app/
 Mission Control.app/
 Money.app/
+Mp3tag.app/
 MuseScore 2.app/
 Native Access.app/
 Native Instruments/
+Natron.app/
 Notes.app/
 Numbers.app/
 OpenEmu.app/
@@ -78,6 +92,7 @@ Processing.app/
 Python Launcher.app@
 QuickTime Player.app/
 RAWPower.app/
+Rack.app/
 Reminders.app/
 Safari.app/
 ScreenFlow.app/
@@ -86,12 +101,14 @@ Siri.app/
 Sketch.app/
 Skype.app/
 Slack.app/
+Sourcetree.app/
 Spark.app/
 Spotify.app/
 Starry Night Pro 7.app/
 Steam.app/
 Stickies.app/
 Sublime Text.app/
+Substance Automation Toolkit/
 Substance Designer.app/
 Substance Painter.app/
 Substance Player.app/
@@ -102,12 +119,11 @@ The Unarchiver.app/
 Things3.app/
 Time Machine.app/
 Touch Bar Simulator.app/
-Tower.app/
 Transmission.app/
 Transmit.app/
 Tweetbot.app/
-Unity 2017.1p5/
-Unity 5.4.2p4/
+Unity 2017.2.0p2/
+Unity 5.4.6f3/
 Unity 5.6.1f1/
 Utilities/
 Vice64/
@@ -116,10 +132,14 @@ Vivaldi.app/
 WhatsApp.app/
 XMind.app/
 Xcode.app/
+YACReader.app/
+YACReaderLibrary.app/
 blender-2.79/
 chipspeech.app/
 iA Writer.app/
 iBooks.app/
 iTerm.app/
 iTunes.app/
+iZotope Product Portal.app/
+itch.app/
 xScope.app/
