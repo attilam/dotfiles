@@ -102,7 +102,7 @@ defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
 # Avoid creating .DS_Store files on network volumes
 defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
 
-# Show Library folder
+# Show Library folder / In High Sierra open the home folder in Finder and 'Show View Options' (Cmd+J)
 chflags nohidden ~/Library/
 
 ###############################################################################

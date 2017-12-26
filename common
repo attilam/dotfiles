@@ -41,10 +41,10 @@ alias svn18="/usr/local/opt/subversion@1.8/bin/svn"
 alias blender='/Applications/blender-2.79/blender.app/Contents/MacOS/blender'
 
 # shortcut to common directories
-function d { cd /Volumes/MrData/Downloads/$1; }
-function p { cd /Volumes/MrData/Projects/$1; }
-function wr { cd /Volumes/MrData/Work/$1; }
-function sen { cd /Volumes/MrData/Work/Sentiomedia/$1; }
+function d { cd ~/Downloads/$1; }
+function p { cd ~/Projects/$1; }
+function wr { cd ~/Work/$1; }
+function sen { cd ~/Work/Sentiomedia/$1; }
 
 # create directory and enter it
 function mkcdr {
@@ -85,19 +85,19 @@ function myip() {
 }
 
 # THE PATH
-PATH="/Volumes/MrData/Projects/scripts:$HOME/bin:$PATH"
+PATH="$HOME/scripts:$HOME/bin:$PATH"
 
 ##Renderman
 # RMANTREE="/Applications/Pixar/RenderManProServer-21.3"
 # PATH="$PATH:$RMANTREE/bin"
 
 ##Houdini Environment Setup
-cd '/Applications/Houdini/Current/Frameworks/Houdini.framework/Versions/Current/Resources'
-source ./houdini_setup
-cd -
+# cd '/Applications/Houdini/Current/Frameworks/Houdini.framework/Versions/Current/Resources'
+# source ./houdini_setup
+# cd -
 
 ## MySQL
-PATH="/usr/local/mysql/bin:$PATH"
+# PATH="/usr/local/mysql/bin:$PATH"
 
 # disable dotNet telemetry
 export DOTNET_CLI_TELEMETRY_OPTOUT=1
