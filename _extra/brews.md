@@ -1,3 +1,14 @@
+
+# Hombrew packages to consider
+
+## Quicklook
+
+```shell
+$ brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json quicklook-csv qlimagesize webpquicklook provisionql
+```
+
+## Everything else
+
 bash: Bourne-Again SHell, a UNIX command interpreter
 cmake: Cross-platform make
 dmd: D programming language compiler for macOS
