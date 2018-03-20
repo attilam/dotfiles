@@ -38,11 +38,11 @@ Return
 
 ; ä
 
-:C:.AE::
+:C::AE::
 Send {U+00c4}
 Return
 
-:C:.ae::
+:C::ae::
 Send {U+00e4}
 Return
 
@@ -68,21 +68,21 @@ Return
 
 ; å
 
-:C:.OA::
+:C:.AO::
 Send {U+00c5}
 Return
 
-:C:.oa::
+:C:.ao::
 Send {U+00e5}
 Return
 
 ; ö
 
-:C:.OE::
+:C::OE::
 Send {U+00d6}
 Return
 
-:C:.oe::
+:C::oe::
 Send {U+00f6}
 Return
 
@@ -118,21 +118,21 @@ Return
 
 ; ü
 
-:C:.UE::
+:C::UE::
 Send {U+00dc}
 Return
 
-:C:.ue::
+:C::ue::
 Send {U+00fc}
 Return
 
 ; ű
 
-:C:,UE::
+:C:;UE::
 Send {U+0170}
 Return
 
-:C:,ue::
+:C:;ue::
 Send {U+0171}
 Return
 
@@ -154,19 +154,19 @@ Return
 Send {U+21e7}
 Return
 
-::!da:: ; ↓
+::!ad:: ; ↓
 Send {U+2193}
 Return
 
-::!la:: ; ←
+::!al:: ; ←
 Send {U+2190}
 Return
 
-::!ra:: ; →
+::!ar:: ; →
 Send {U+2192}
 Return
 
-::!ua:: ; ↑
+::!au:: ; ↑
 Send {U+2191}
 Return
 
