@@ -9,6 +9,7 @@ $ brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json quicklook-cs
 
 ## Everything else
 
+```
 bash: Bourne-Again SHell, a UNIX command interpreter
 cmake: Cross-platform make
 dmd: D programming language compiler for macOS
@@ -47,3 +48,4 @@ vim: Vi 'workalike' with many additional features
 wget: Internet file retriever
 youtube-dl: Download YouTube videos from the command-line
 zsh: UNIX shell (command interpreter)
+```
