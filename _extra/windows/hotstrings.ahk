@@ -1,8 +1,6 @@
-; AutoHotkey script to get Accented characters
+; Accented characters and symbols
 ; character codes from https://unicodelookup.com/
 ; and https://www.fileformat.info/info/unicode/char/search.htm
-
-#SingleInstance, force
 
 #Hotstring * ?  ; Expand immediately everywhere
 
@@ -204,16 +202,4 @@ Return
 
 ::!rt:: ; ®
 Send {U+00ae}
-Return
-
-; flip scrollwheel direction
-
-#MaxHotkeysPerInterval 350
-
-WheelUp::
-Send {WheelDown}
-Return
-
-WheelDown::
-Send {WheelUp}
 Return
