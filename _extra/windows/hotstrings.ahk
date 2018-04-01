@@ -203,3 +203,23 @@ Return
 ::!rt:: ; ®
 Send {U+00ae}
 Return
+
+::!ell:: ; …
+Send {U+2026}
+Return
+
+::!elm:: ; ⋯
+Send {U+22ef}
+Return
+
+::!elv:: ; ⋮
+Send {U+22ee}
+Return
+
+::!elu:: ; ⋰
+Send {U+22f0}
+Return
+
+::!eld:: ; ⋱
+Send {U+22f1}
+Return
