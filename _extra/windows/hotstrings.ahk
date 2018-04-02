@@ -223,3 +223,11 @@ Return
 ::!eld:: ; ⋱
 Send {U+22f1}
 Return
+
+; dynamic strings
+
+; current date
+::!date::
+FormatTime, CurrentDateTime,, yyyy-MM-dd HH:mm:ss
+SendInput %CurrentDateTime%
+return
