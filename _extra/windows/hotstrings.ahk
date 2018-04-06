@@ -134,6 +134,16 @@ Return
 Send {U+0171}
 Return
 
+; ï
+
+:C::II::
+Send {U+00cf}
+Return
+
+:C::ii::
+Send {U+00ef}
+Return
+
 ; misc symbols
 
 ::!alt:: ; ⌥
@@ -222,6 +232,30 @@ Return
 
 ::!eld:: ; ⋱
 Send {U+22f1}
+Return
+
+::!middot:: ; ·
+Send {U+00b7}
+Return
+
+::!check:: ; ✓
+Send {U+2713}
+Return
+
+::!mult:: ; ×
+Send {U+00d7}
+Return
+
+::!cross:: ; ✗
+Send {U+2717}
+Return
+
+::!starb:: ; ★
+Send {U+2605}
+Return
+
+::!starw:: ; ☆
+Send {U+2606}
 Return
 
 ; dynamic strings
