@@ -214,6 +214,14 @@ Return
 Send {U+00ae}
 Return
 
+::!ndsh:: ; –
+Send {U+2013}
+Return
+
+::!mdsh:: ; —
+Send {U+2014}
+Return
+
 ::!ell:: ; …
 Send {U+2026}
 Return
