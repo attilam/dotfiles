@@ -15,3 +15,10 @@ F16::
 		WinActivate, SpeedCrunch
 	}
 	Return
+
+^F16::
+	Send ^r
+	Send !{Tab}
+	Sleep 200
+	Send ^v
+	Return
