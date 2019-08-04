@@ -178,6 +178,26 @@ Return
 Send {U+2191}
 Return
 
+::!dar:: ; ↠
+Send {U+21a0}
+Return
+
+::!dal:: ; ↞
+Send {U+219e}
+Return
+
+::!union:: ; ∪
+Send {U+222a}
+Return
+
+::!subset:: ; ⊂
+Send {U+2282}
+Return
+
+::!subeq:: ; ⊆
+Send {U+2286}
+Return
+
 ::!bull:: ; •
 Send {U+2022}
 Return

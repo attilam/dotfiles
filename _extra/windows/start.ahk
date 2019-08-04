@@ -4,6 +4,7 @@
 #include hotstrings.ahk
 #include wheelflip.ahk
 #include macify.ahk
+#include desktop_switcher.ahk
 
 F16::
 	Process, exist, speedcrunch.exe
