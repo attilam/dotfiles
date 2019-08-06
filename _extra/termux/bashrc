@@ -40,9 +40,11 @@ function mkcdr {
 
 # shortcut to common directories
 function d { cd ~/storage/downloads/$1; }
-function p { cd ~/Projects/$1; }
+function p { cd ~/projects/$1; }
 
 # aliases
+alias res='exec bash'
+
 # nice directory listing
 alias ls='ls -FGah'
 
