@@ -27,9 +27,9 @@ HISTFILESIZE=2000
 
 # the prompt
 if [ -n "$SSH_CLIENT" ]; then
-  export PS1="\[\e[34;1m\]\u@\h\[\033[m\] \[\e[32;1m\]\W\[\033[m\] $ "
+  export PS1="\[\e[34;1m\]\u@\h\[\033[m\] \[\e[32;1m\]\W\[\033[m\]\n$ "
 else
-  export PS1="\[\e[34;1m\]\u\[\033[m\] \[\e[32;1m\]\W\[\033[m\] $ "
+  export PS1="\[\e[34;1m\]\u\[\033[m\] \[\e[32;1m\]\W\[\033[m\]\n$ "
 fi
 
 # create directory and enter it
