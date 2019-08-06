@@ -1,0 +1,62 @@
+# If not running interactively, don't do anything
+case $- in
+    *i*) ;;
+      *) return;;
+esac
+
+
+bind "set completion-ignore-case on"
+bind "set show-all-if-ambiguous on"
+
+# cd like on the Amiga!
+CDPATH="."
+shopt -s autocd
+
+# don't put duplicate lines or lines starting with space in the history.
+# See bash(1) for more options
+HISTCONTROL=ignoreboth
+
+# append to the history file, don't overwrite it
+shopt -s histappend
+shopt -s dirspell
+shopt -s cdspell
+
+# for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
+HISTSIZE=1000
+HISTFILESIZE=2000
+
+# the prompt
+if [ -n "$SSH_CLIENT" ]; then
+  export PS1="\[\e[34;1m\]\u@\h\[\033[m\] \[\e[32;1m\]\W\[\033[m\] $ "
+else
+  export PS1="\[\e[34;1m\]\u\[\033[m\] \[\e[32;1m\]\W\[\033[m\] $ "
+fi
+
+# create directory and enter it
+function mkcdr {
+  mkdir -p $1 
+  cd $1
+}
+
+# shortcut to common directories
+function d { cd ~/storage/downloads/$1; }
+function p { cd ~/Projects/$1; }
+
+# aliases
+# nice directory listing
+alias ls='ls -FGah'
+
+# nice PATH
+alias path='echo -e ${PATH//:/\\n}'
+
+# HTTP serve current directory
+alias https="python -m SimpleHTTPServer"
+
+alias localip='ifconfig | grep "inet "'
+function myip() {
+  internalip=`ifconfig | ruby -e "print STDIN.readlines.select { |a| a =~ /inet / }.reject { |a| a =~ /127/ }.map { |a| a.split(' ')[1] }.join(', ')"`
+  externalip=`curl -s https://jsonip.com | jq -r .ip | tr -d '\n'`
+  echo "Internal: $internalip"
+  echo "External: $externalip"
+  echo -n $externalip | pbcopy
+}
