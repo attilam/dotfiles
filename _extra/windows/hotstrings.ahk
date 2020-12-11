@@ -1,5 +1,6 @@
 ; Accented characters and symbols
 ; character codes from https://unicodelookup.com/
+; https://en.wikipedia.org/wiki/List_of_Unicode_characters
 ; and https://www.fileformat.info/info/unicode/char/search.htm
 
 #Hotstring * ?  ; Expand immediately everywhere
@@ -12,6 +13,26 @@ Return
 
 :C:,aa::
 Send {U+00e1}
+Return
+
+; à
+
+:C:\AA::
+Send {U+00c0}
+Return
+
+:C:\aa::
+Send {U+00e0}
+Return
+
+; â
+
+:C:^AA::
+Send {U+00c2}
+Return
+
+:C:^aa::
+Send {U+00e2}
 Return
 
 ; æ
@@ -34,6 +55,27 @@ Return
 Send {U+00e9}
 Return
 
+; è
+
+:C:\EE::
+Send {U+00c8}
+Return
+
+:C:\ee::
+Send {U+00e8}
+Return
+
+; ê
+
+:C:^EE::
+Send {U+00ca}
+Return
+
+:C:^ee::
+Send {U+00ea}
+Return
+
+
 ; ä
 
 :C::AE::
@@ -54,6 +96,16 @@ Return
 Send {U+00ed}
 Return
 
+; î
+
+:C:^II::
+Send {U+00ce}
+Return
+
+:C:^ii::
+Send {U+00ee}
+Return
+
 ; ó
 
 :C:,OO::
@@ -62,6 +114,16 @@ Return
 
 :C:,oo::
 Send {U+00f3}
+Return
+
+; ô
+
+:C:^OO::
+Send {U+00d4}
+Return
+
+:C:^oo::
+Send {U+00f4}
 Return
 
 ; å
@@ -114,6 +176,26 @@ Return
 Send {U+00fa}
 Return
 
+; ù
+
+:C:\UU::
+Send {U+00d9}
+Return
+
+:C:\uu::
+Send {U+00f9}
+Return
+
+; û
+
+:C:^UU::
+Send {U+00db}
+Return
+
+:C:^uu::
+Send {U+00fb}
+Return
+
 ; ü
 
 :C::UE::
@@ -142,6 +224,26 @@ Return
 
 :C::ii::
 Send {U+00ef}
+Return
+
+; ç
+
+:C:;CC::
+Send {U+00c7}
+Return
+
+:C:;cc::
+Send {U+00e7}
+Return
+
+; ẞ
+
+:C::SS::
+Send {U+1e9e}
+Return
+
+:C::ss::
+Send {U+00df}
 Return
 
 ; misc symbols
