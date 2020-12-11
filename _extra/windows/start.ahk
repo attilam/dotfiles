@@ -5,6 +5,7 @@
 #include wheelflip.ahk
 #include macify.ahk
 #include desktop_switcher.ahk
+#include cursor_control.ahk
 
 F16::
 	Process, exist, speedcrunch.exe
