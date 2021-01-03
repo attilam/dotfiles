@@ -248,7 +248,7 @@ Return
 
 ; misc symbols
 
-::!alt:: ; ⌥
+::!opt:: ; ⌥
 Send {U+2325}
 Return
 
@@ -384,7 +384,7 @@ Return
 Send {U+2717}
 Return
 
-::!star:: ; ★
+::!starb:: ; ★
 Send {U+2605}
 Return
 
