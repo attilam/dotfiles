@@ -320,6 +320,10 @@ Return
 Send {U+00a3}
 Return
 
+::!gbp:: ; £
+Send {U+00a3}
+Return
+
 ::!cent:: ; ¢
 Send {U+00a2}
 Return
@@ -336,11 +340,11 @@ Return
 Send {U+00ae}
 Return
 
-::!ndsh:: ; –
+::!ndash:: ; –
 Send {U+2013}
 Return
 
-::!mdsh:: ; —
+::!mdash:: ; —
 Send {U+2014}
 Return
 
@@ -380,7 +384,7 @@ Return
 Send {U+2717}
 Return
 
-::!starb:: ; ★
+::!star:: ; ★
 Send {U+2605}
 Return
 
